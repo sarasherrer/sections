@@ -1,0 +1,43 @@
+html {
+  box-sizing: border-box;
+  background-color: #eee9de;
+  font-family: Lato, sans-serif;
+  line-height: 1.5em;
+  margin: 1.5rem;
+  padding: 1em 2em;
+
+}
+
+div {
+  display: inline-block;
+  max-width: 25em;
+  vertical-align: middle;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h2 {
+  font-weight: bold;
+  text-align: left;
+  color: #333;
+}
+
+body {
+  text-align: left;
+
+}
+
+img {
+  width: 100%;
+  display: inline-block;
+}
+
+.btn {
+  border: 3px solid black;
+  padding: .4em .75em .5em;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #666;
+}
