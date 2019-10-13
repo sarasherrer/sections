@@ -3,17 +3,26 @@ html {
   background-color: #eee9de;
   font-family: Lato, sans-serif;
   line-height: 1.5em;
-}
+  margin-top: 2em;
 
-div {
-  display: inline-block;
-  vertical-align: middle;
-  max-width: 25em;
-  margin: 1.5em;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+section {
+  text-align: center;
+}
+
+div {
+  display: inline-block;
+  max-width: 25em;
+  margin: 1.5px;
+  padding: 1em;
+  vertical-align: top;
+  margin-top: 0;
+  text-align: left;
 }
 
 h2 {
@@ -21,23 +30,28 @@ h2 {
   font-weight: bold;
   text-align: left;
   color: #333;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
 }
 
 body {
-  text-align: left;
   margin: 0;
 }
 
 img {
-  width: 100%;
   display: block;
+  width: 100%;
 }
 
+p {
+  margin-bottom: 3rem;
+}
 .btn {
   border: 3px solid black;
   padding: .4em .75em .5em;
-  border-radius: 3px;
+  border-radius: 4px;
   text-decoration: none;
+  font-size: 1.2rem;
   color: #666;
-  text-align: center;
+
 }
